@@ -1,0 +1,73 @@
+container {
+
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto
+	'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+	font-size: 18px;
+	font-color: #2D3748;
+	
+	display: grid;
+
+	max-width: 2000px;
+	margin:auto;
+
+	grid-template-columns: 65% 35%;
+	grid-template-rows: 29% 59% %12;
+ 	grid-column-gap: 90px;
+    	grid-row-gap: 0px;
+
+	}
+
+header{
+	display-area: header;
+	display: flex;
+	grid-column-start:1;
+	grid-column-end:4;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+	background-color: #63B3ED;
+	color: #FFFFFF;
+	
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+	grid-row-start: 2;
+	grid-row-end: span 2;
+	grid-column-start:1;
+	gird-column-end:3;
+}
+
+h2 {
+    color: #48BB78;
+    font-size: 32px;
+}
+
+aside{
+	grid-row-start: 2;
+	grid-column-end:4;
+	padding-right: 20px;
+}
+
+aside Social Media{
+    color: #48BB78;
+}
+aside Archives{
+    color: #48BB78;
+}
+
+
+footer{
+	grid-column-start:1;
+	gird-column-end:3;
+	color: #FFFFFF;
+    	background-color: #2C5282;
+}
+
+#credentials{
+	color: #718096;
+}
